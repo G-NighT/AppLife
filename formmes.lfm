@@ -1,0 +1,48 @@
+object Form3: TForm3
+  Left = 492
+  Height = 200
+  Top = 233
+  Width = 300
+  Align = alClient
+  AlphaBlend = True
+  AlphaBlendValue = 210
+  Anchors = [akLeft]
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Form3'
+  ClientHeight = 200
+  ClientWidth = 300
+  Color = clBlack
+  DefaultMonitor = dmDesktop
+  FormStyle = fsSystemStayOnTop
+  OnShow = FormShow
+  LCLVersion = '1.2.0.3'
+  object Shape1: TShape
+    Left = 1
+    Height = 198
+    Top = 1
+    Width = 298
+    Brush.Color = 3757817
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 200
+    Top = 0
+    Width = 300
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Приложение успешно запущено'
+    Font.Height = -21
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+    OnDblClick = Label1DblClick
+  end
+end

